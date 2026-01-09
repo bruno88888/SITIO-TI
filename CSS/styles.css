@@ -1,3 +1,15 @@
 h1{
     color:rgb(32, 109, 109);
 }
+body{
+background-color: rgba(173, 255, 244, 0.863);
+}
+#encabezado{
+background-color: rgb(78, 216, 170);
+height: 150px;
+width: 80%;
+margin: 0 auto;
+border-radius: 10px;
+padding: 20px;
+box-shadow:10px 10px  rgba(3, 102, 97, 0.5);
+}
