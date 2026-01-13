@@ -5,11 +5,116 @@ body{
 background-color: rgba(173, 255, 244, 0.863);
 }
 #encabezado{
-background-color: rgb(78, 216, 170);
-height: 150px;
-width: 80%;
-margin: 0 auto;
-border-radius: 10px;
-padding: 20px;
-box-shadow:10px 10px  rgba(3, 102, 97, 0.5);
+ background-color: rgb(78, 216, 170);
+ height: 150px;
+ width: 80%;
+ margin: 0 auto;
+ border-radius: 10px;
+ padding: 20px;
+ box-shadow:10px 10px  rgba(3, 102, 97, 0.5);
+ display: flex;
+}
+.logo{
+    background-color: rgb(224, 224, 224);
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 100%;
+    height: auto;
+}
+.menu{
+    background-color: lightblue;
+    width: 70%;
+}
+.menu ul{
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ display: flex;
+ background-color: bisque;
+
+}
+.menu ul li{
+    margin: 0;
+    padding: 15px 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black
+}
+.menu ul li a:hover{
+    background-color: whitesmoke;
+    padding: 15px 20px;
+}
+.redes{
+    background-color: beige;
+    width: 20%;
+}
+
+#cards-section {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+  background-color: #5dade2;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px rgba(3, 102, 97, 0.5);
+}
+
+.card {
+  background-color: #b3d9ff;
+  padding: 40px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  border: 3px solid #0e5a96;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+#main-section {
+  background-color: #5dade2;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  width: 80%;
+  margin: 20px auto;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px rgba(3, 102, 97, 0.5);
+}
+
+#pie-section {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+  background-color: #0e5a96;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px rgba(3, 102, 97, 0.5);
+}
+
+.pie {
+  background-color: #b3d9ff;
+  padding: 40px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0e5a96;
+  font-weight: bold;
+  border: 3px solid #0e5a96;
+  border-radius: 5px;
+  font-size: 18px;
 }
